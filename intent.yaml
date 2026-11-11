@@ -122,7 +122,7 @@ environments:
 
   stage:
     description: Deployed on every merge to main, before prod.
-    url: https://nuxt-site-web-stage.next.workers.dev
+    url: https://nuxt-site-web-stage.vijayakrishnan12994.workers.dev
     activation:
       triggerRefs:
         - github-pull-request
@@ -134,7 +134,7 @@ environments:
 
   prod:
     description: Where visitors are. Deploys after stage converges on the same commit.
-    url: https://nuxt-site-web-prod.next.workers.dev
+    url: https://nuxt-site-web-prod.vijayakrishnan12994.workers.dev
     activation:
       triggerRefs:
         - github-pull-request
