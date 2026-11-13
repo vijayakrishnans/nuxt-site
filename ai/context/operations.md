@@ -82,8 +82,8 @@ Caveats that matter:
 
 ```bash
 # the site on each environment (also recorded, probed, in deployment.md)
-curl -s -o /dev/null -w '%{http_code}\n' https://nuxt-site-web-stage.next.workers.dev/
-curl -s https://nuxt-site-web-prod.next.workers.dev/ | grep -o '<title>[^<]*</title>'
+curl -s -o /dev/null -w '%{http_code}\n' https://nuxt-site-web-stage.vijayakrishnan12994.workers.dev/
+curl -s https://nuxt-site-web-prod.vijayakrishnan12994.workers.dev/ | grep -o '<title>[^<]*</title>'
 
 # workspace readiness (integrations + repository link)
 orun integrations list --org <ws> --json && orun cloud check --org <ws>

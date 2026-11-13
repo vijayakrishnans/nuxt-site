@@ -82,7 +82,7 @@ spec:
 
     # The account's workers.dev subdomain; exported to the smoke step as
     # ${WORKERS_DEV_SUBDOMAIN} and used to build ${DEPLOYED_URL}.
-    workersDevSubdomain: next
+    workersDevSubdomain: vijayakrishnan12994
 
     installCommand: pnpm install --frozen-lockfile
     buildCommand: pnpm exec turbo run build --filter=@app/web
